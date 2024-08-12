@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+    <div class=" grid grid-cols-3  mx-auto">
+    <div class=" items-centre mx-auto py-5 h-[450px] rounded ">
+    <svg xmlns="http://www.w3.org/2000/svg" width="243" height="194" viewBox="0 0 243 194" fill="none"  class="items-centre">
+        <path d="M121.5 0L243 194H0L121.5 0Z" fill="#FEFF5B"/>
+        </svg>
+        <h1 class="text-3xl text-center ">Triangle</h1>
+         <p class=" text-center">Area (A) = 0.5*b*h</p>
+         <input type="number" placeholder="b" id="base" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]"> <span>cm</span>
+         <input type="number" placeholder="h" id="height" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]" >
+       
+        <span>cm</span>
+        <h1  class="text-xl text-center"><span>total area : </span> <span id="area">00</span> <span>cm<sup>2</sup></span></h1>
+        <button id="calculate" class="bg-[#1090D8] w-[250px] h-[45px] text-xl rounded text-white py-2">calculate</button>
+    </div>
+    <div class=" items-centre mx-auto py-5 h-[450px] rounded ">
+        <svg width="243" height="194" viewBox="0 0 307 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="307" height="194" fill="#CCCCFF"/>
+            </svg>
+            
+            <h1  class="text-3xl text-center">Rectangle</h1>
+             <p class="text-center">Area (A) = w*i</p>
+            <input type="number" placeholder="w" id="Width"  class="h-[25px] w-[90px] rounded bg-[#F1F1F1]"> <span>cm</span>
+            <input type="number" placeholder="i" id="Length"  class="h-[25px] w-[90px] rounded bg-[#F1F1F1]">
+            <span>cm</span>
+            <h1  class="text-xl text-center"><span>total area : </span> <span id="area">00</span> <span>cm<sup>2</sup></span></h1>
+            <button id="calculate"  class="bg-[#1090D8] w-[250px] h-[45px] text-xl rounded text-white py-2">calculate</button>
+        </div>
+        <div class=" items-centre mx-auto py-5 h-[450px] rounded">
+            <svg width="243" height="194" viewBox="0 0 350 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M58 0H349.5L281.5 194H0L58 0Z" fill="#B2F069"/>
+                </svg>
+                
+                <h1 class="text-3xl text-center">Parallelogram</h1>
+                 <p class="text-center">Area (A) = b*h</p>
+                <input type="number" placeholder="b" id="base" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]"> <span>cm</span>
+                <input type="number" placeholder="h" id="height" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]">
+                <span>cm</span>
+                <h1  class="text-xl text-center"><span>total area : </span> <span id="area">00</span> <span>cm<sup>2</sup></span></h1>
+                <button id="calculate"  class="bg-[#1090D8] w-[250px] h-[45px] text-xl rounded text-white py-2">calculate</button>
+            </div>
+    </div>
+    <div class=" grid grid-cols-3 gap-5 mx-auto">
+
+        <div class=" items-centre mx-auto py-5 h-[450px] rounded">
+            <svg width="243" height="194" viewBox="0 0 350 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M58 0H349.5L281.5 194H0L58 0Z" fill="#B2F069"/>
+                </svg>
+                
+                <h1 class="text-3xl text-center">Rhombus</h1>
+                 <p class="text-center">Area (A) = 0.5*d <sub>1</sub>*d <sub>2</sub></p>
+                 <p class="text-center">d <sub>1</sub>=16cm
+                    d <sub>2</sub>=8cm
+                 </p>
+                <input type="number" placeholder="d<sub>1</sub>" id="base" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]"> <span>cm</span>
+                <input type="number" placeholder="d<sub>2</sub>" id="height" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]">
+                <span>cm</span>
+                <h1  class="text-xl text-center"><span>total area : </span> <span id="area">00</span> <span>cm<sup>2</sup></span></h1>
+                <button id="calculate"  class="bg-[#1090D8] w-[250px] h-[45px] text-xl rounded text-white py-2">calculate</button>
+            </div>
+            <div class=" items-centre mx-auto py-5 h-[450px] rounded">
+                <svg width="243" height="180" viewBox="0 0 194 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 42L97 0L194 42L169 188H28L0 42Z" fill="#FFC1AC"/>
+                    </svg>
+                    
+                    
+                    <h1 class="text-3xl text-center">Pentagon
+                        </h1>
+                        <p class="text-center">Area (A) = 0.5*p*b</p>
+                        <p class="text-center"> p=10cm , b=5cm</p>
+                    <input type="number" placeholder="p" id="base" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]"> <span>cm</span>
+                    <input type="number" placeholder="b" id="height" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]">
+                    <span>cm</span>
+                    <h1  class="text-xl text-center"><span>total area : </span> <span id="area">00</span> <span>cm<sup>2</sup></span></h1>
+                    <button id="calculate"  class="bg-[#1090D8] w-[250px] h-[45px] text-xl rounded text-white py-2">calculate</button>
+                </div>
+                <div class=" items-centre mx-auto py-5 h-[450px] rounded">
+                    <svg width="240" height="178" viewBox="0 0 287 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="143.5" cy="89" rx="143.5" ry="89" fill="#D9D9D9"/>
+                        </svg>
+                        
+                        
+                        <h1 class="text-3xl text-center">Ellipse</h1>
+                         
+                         <p class="text-center"> a=12cm , b=35cm</p>
+                        <input type="number" placeholder="a" id="base" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]"> <span>cm</span>
+                        <input type="number" placeholder="b" id="height" class="h-[25px] w-[90px] rounded bg-[#F1F1F1]">
+                        <span>cm</span>
+                        <h1  class="text-xl text-center"><span>total area : </span> <span id="area">00</span> <span>cm<sup>2</sup></span></h1>
+                        <button id="calculate"  class="bg-[#1090D8] w-[250px] h-[45px] text-xl rounded text-white py-2">calculate</button>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
